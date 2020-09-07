@@ -1,0 +1,126 @@
+#Reviews{
+	padding: 50px 0px 100px 0px;
+  height: 100vh;
+  background: #ededed; /*#d9d9d9;#f3f6fb*/
+}
+#Reviews .titles h2{
+			font-size: 2.2rem;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+#Reviews .titles		h5{
+			font-size: 1.2rem;
+			font-weight: 500;
+			text-align: center;
+			margin-bottom: 35px;
+			color: #5d656b;
+		}
+
+#Reviews	.testimonials{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate{
+				position: relative;
+				padding: 15px;
+				background: #f6f6f6;
+				height: 250px;
+        margin-bottom: 44px;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate				p{
+					margin-bottom: 10px;
+					color: #5d656b;
+					font-size: .9rem;
+					line-height: 1.8;
+					font-weight: 400;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate	.rating{
+					position: absolute;
+          bottom: 15px;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate	.rating	.stars{
+						display: flex;
+						flex-direction: row;
+            padding: 10px 0;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate	.rating	.stars li{
+							padding: 0 4px;
+							color: #fb9a0a;
+}
+#Reviews 	.testimonials	.testimonial-box .testimonial-text-rate	.rating span{
+						padding: 0 4px;
+					}
+#Reviews 	.testimonials	.testimonial-box .user-info{
+				display: flex;
+		    justify-content: stretch;
+        align-items: center;
+}
+#Reviews 	.testimonials	.testimonial-box .user-info .user-img1{
+					background: url('https://randomuser.me/api/portraits/men/32.jpg');
+					background-size: cover;
+					width: 70px;
+					height: 70px;
+					border-radius: 50%;
+				}
+        #Reviews 	.testimonials	.testimonial-box .user-info				.user-img2{
+					background: url('https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzMjA0ODk1OF5BMl5BanBnXkFtZTcwMTA4ODM3OQ@@._V1_UY256_CR5,0,172,256_AL_.jpg');
+					background-size: cover;
+					width: 70px;
+					height: 70px;
+					border-radius: 50%;
+				}
+        #Reviews 	.testimonials	.testimonial-box .user-info				.user-img3{
+					background: url('https://randomuser.me/api/portraits/women/44.jpg');
+					background-size: cover;
+					width: 70px;
+					height: 70px;
+					border-radius: 50%;
+				}
+        #Reviews 	.testimonials	.testimonial-box .user-info				.name-company{
+          padding: 0 10px;
+        }
+				#Reviews 	.testimonials	.testimonial-box .user-info				.name-company	h4{
+						font-weight: 600;
+						margin-bottom: 6px;
+					}
+          #Reviews 	.testimonials	.testimonial-box .testimonial-text-rate{
+    display: block;
+    position: relative;
+	}
+  #Reviews 	.testimonials	.testimonial-box	.testimonial-text-rate:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 30px solid #f6f6f6;
+    border-right: 30px solid transparent;
+    position: absolute;
+    bottom: -30px;
+    left: 25px;
+	}
+
+
+@media only screen and (max-width: 960px){
+  .container{ width: 100%}
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+	#Reviews{
+		padding: 100px 0;
+		height: 100vh;
+    display: contents;
+  }
+	#Reviews	.testimonials{
+			display: flex;
+      flex-direction: column;
+  }
+  #Reviews	.testimonials .testimonial-box{
+        margin: 15px 0;
+  }
+	#Reviews	.testimonials .testimonial-box.box3{
+					margin-bottom: 70px;
+				}
+        #Reviews	.testimonials .testimonial-box			.testimonial-text-rate{
+					height: 230px;
+				}
+}

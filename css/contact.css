@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import "reset.css";
+@import "header-nav.css";
+
+body{
+  overflow: hidden;
+}
+
+#form{
+  background: #47A8BD;
+  padding: 60px 0px;
+  height: 93vh;
+}
+
+#form h1{
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header .mobile-nav{
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  header .main-nav,header .logo{
+    display: none;
+  }
+  header{
+    height: auto;
+  }
+  header .mobile-nav{
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile-nav .logo{
+    display: flex;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+  }
+
+  header .mobile-nav button{
+    float: right;
+  }
+
+  header .mobile-nav .show{
+    margin-top: 35px;
+  }
+  header .mobile-nav .nav-item a{
+    display: inline-block;
+    width: 100%;
+  }
+
+  #form h1{
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+}
+/* body{
+  overflow: hidden;
+} */
+

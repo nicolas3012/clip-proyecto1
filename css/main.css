@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import "reset.css";
+@import "header-nav.css";
+@import "hero-section.css";
+@import "features-section.css";
+@import "how-it-works-section.css";
+@import "footer.css";
+@import "reviews.css";
+
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header .mobile-nav{
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  header .main-nav,header .logo{
+    display: none;
+  }
+  header{
+    height: auto;
+  }
+  header .mobile-nav{
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile-nav .logo{
+    display: flex;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+  }
+
+  header .mobile-nav button{
+    float: right;
+  }
+
+  header .mobile-nav .show{
+    margin-top: 35px;
+  }
+  header .mobile-nav .nav-item a{
+    display: inline-block;
+    /* width: 100% or auto */
+  }
+}
+/* body{
+  overflow: hidden;
+} */
+

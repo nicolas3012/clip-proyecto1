@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="icon" type="image/jpg" sizes="192x192" href="img/logo-white-blue.jpg">
+  <style>
+    .mobile-nav{
+      display: none;
+    }
+    @media (max-width: 767px){
+      .mobile-nav{
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <picture>
+          <img src="img/q1.png" alt="">
+        </picture>
+        <h2>Horario Fácil</h2>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="menu">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#how-it-works">Cómo funciona</a>
+        </li>
+        <li>
+          <a href="#features-section">Características</a>
+        </li>
+        <li>
+          <a href="contact.html">Contacto</a>
+        </li>
+        <li>
+          <a href="guess.html">Juego</a>
+        </li>
+      </ul>
+      <ul class="cta-menu">
+        <li>
+          <a href="#">Iniciar sesión</a>
+        </li>
+        <li>
+          <a href="#">Prueba grátis</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-light bg-light mobile-nav">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <a href="index.html">
+            <picture>
+              <img src="img/q1.png" alt="">
+            </picture>
+            <h2>Horario Fácil</h2>
+          </a>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#how-it-works">Cómo funciona<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#features-section">Características<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contacto<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="form">
+    <div class="container">
+      <h1>Formulario de Contacto.</h1>
+      <form action="#" class="needs-validation" novalidate>
+        <div class="form-group">
+          <label for="names">Apellido y Nombres</label>
+          <input type="text" pattern="[a-zA-Z ]{1,}" maxlength="25" id="names" class="form-control" required placeholder="Example: John Doe">
+          <div class="valid-feedback">OK</div>
+          <div class="invalid-feedback">Wrong</div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" required required placeholder="Example: name@gmail.com">
+          <div class="valid-feedback">OK</div>
+          <div class="invalid-feedback">Wrong</div>
+        </div>
+        <div class="form-group">
+          <label for="msj">Mensaje</label>
+          <textarea name="text-area" id="msj" rows="4" cols="50" class="form-control" required></textarea>
+          <div class="valid-feedback">OK</div>
+          <div class="invalid-feedback">Wrong</div>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" required> I agree on termns and conditions.
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Check this checkbox to continue.</div>
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

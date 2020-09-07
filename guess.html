@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/guess.css">
+  <link rel="icon" type="image/jpg" sizes="192x192" href="img/logo-white-blue.jpg">
+  <title>Guess Game</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <picture>
+        <img src="img/q1.png" alt="">
+      </picture>
+      <h2>Horario Fácil</h2>
+    </div>
+    <nav class="main-nav">
+      <ul class="menu">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#how-it-works">Cómo funciona</a>
+        </li>
+        <li>
+          <a href="#features-section">Características</a>
+        </li>
+        <li>
+          <a href="contact.html">Contacto</a>
+        </li>
+        <li>
+          <a href="guess.html">Juego</a>
+        </li>
+      </ul>
+      <ul class="cta-menu">
+        <li>
+          <a href="#">Iniciar sesión</a>
+        </li>
+        <li>
+          <a href="#">Prueba grátis</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-light bg-light mobile-nav">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <picture>
+            <img src="img/q1.png" alt="">
+          </picture>
+          <h2>Horario Fácil</h2>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#how-it-works">Cómo funciona<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#features-section">Características<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contacto<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="game-section">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h1 class="main-guess-title">Juguemos a las adivinanzas!</h1>
+      <h3 class="rules">Reglas</h3>
+      <p class="rules">1) El objetivo es completar 10 adivinanzas relacionadas al tiempo, y mejor si lo haces con un buen puntaje.</p>
+      <p class="rules">2) Empiezas cada nueva adivinanza con 4 intentos para responder correctamente y si te quedas sin intentos pierdes. </p>
+      <p class="rules">3) Las respuestas correctas son en letras minusculas.</p>
+      <p class="rules">4) Se te brindara una pista cuando te queden 2 intentos y una segunda pista mas cuando te quede 1 intento.</p>
+      <p class="rules">5) Con cada respuesta correcta ganas puntos de la siguiente manera:
+        <ul class="rules">
+          <li>Con 4 intentos restante: +10 puntos.</li>
+          <li>Con 3 intentos restante: +8 puntos.</li>
+          <li>Con 2 intentos restante: +5 puntos.</li>
+          <li>Con 1 intentos restante: +1 puntos.</li>
+        </ul>
+      </p>
+      <p class="rules">6) Puedes comprar intentos, cada uno cuesta 2 puntos.</p>
+      <div class="row row1">
+        <div class="col-6 ">
+          <h2 class="guess-title">Adivinanza <span class="guess-number">1</span>:</h2>
+          <p class="guess-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora aliquam neque, tempore nihil ea eum corporis magni sunt dolorem iusto quidem voluptatum voluptatem maxime illum esse laborum consectetur dignissimos culpa!</p>
+
+        </div>
+        <div class="col-6">
+          <h2 class="guess-title">Pistas:</h2>
+          <p class="clue1" >Pista 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime sit esse quae dolor commodi numquam hic vero quia sunt deserunt dignissimos earum.</p>
+          <p class="clue2" >Pista 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta at voluptate ipsam quibusdam vero magni maxime modi sit, qui sed.</p>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="col-6">
+          <h2 class="user-answer-generic">
+            Tu respuesta: <span class="user-answer">_ _ _ _ _ </span>
+            <!-- <span class="user-answer-result"></span> -->
+          </h2>
+        </div>
+        <div class="col-6">
+          <h3 class="chances">Intentos restantes: <span class="chances-left"></span></h3>
+        </div>
+
+      </div>
+      <div class="row row3">
+        <h2 style="display: none;">Respuesta correcta: <span class="right-answer">...</span></h2>
+        <!-- <div class="col-3">
+        </div> -->
+        <div class="offset-3 col-3">
+          <input type="text" class="answer-input">
+        </div>
+        <div class="col-5">
+          <button type="button" class="guess-btn btn btn-primary">Adivinar</button>
+          <!-- <button class="try-again">Probar de nuevo</button> -->
+          <!-- <div class="try-again-btn">
+            <a href="#">Probar de nuevo</a>
+          </div> -->
+        </div>
+      </div>
+      <div class="row row4">
+        <div class="offset-2 col-7">
+          <button type="button" class="next-guess btn btn-success" onclick="change_guess();" disabled>Siguiente</button>
+          <button type="button" class="buy-try btn btn-primary" onclick="buy_try_func();" disabled>Comprar intento</button>
+          <button type="button" class="restart-game btn btn-danger" onClick="window.location.reload();" disabled>Reiniciar juego</button>
+          <!-- <button type="button" class="buy-3-tries btn btn-primary"  disabled>Comprar 3 intentos</button> -->
+          <button type="button" class="finish btn btn-primary" id="puntaje" disabled type="button" data-toggle="modal" data-target="#exampleModal" onclick="winner_sfx.play();">Terminar</button>
+          <button type="button" class="you-lose btn btn-primary" id="puntaje" disabled type="button" data-toggle="modal" data-target="#exampleModal2" onclick="loser_sfx.play();">Perdiste</button>
+        </div>
+        <div class="col-3 d-flex flex-row justify-content-flex-start">
+          <h2 class="score">Puntaje:</h2>
+          <span class="score-number">0</span>
+        </div>
+      </div>
+      <div class="row row5">
+        <h2>Ingresa tu nombre:</h2>
+        <input type="text" class="player-name">
+        <button class="start-btn btn btn-primary" onclick="start_game();">Comenzar juego</button>
+      </div>
+    </div>
+    <!-- <div class="container">
+    </div> -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">¡GANASTE!</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2>
+            ¡Muchas Felicidades <span class="player-name-in-modal">...</span>, completaste el juego!
+          </h2> 
+        </div>
+        <div class="modal-footer">
+          <h2>¡Juega de nuevo!</h2>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">¡Perdiste!</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2>
+            Esta vez <span class="player-name-in-modal">...</span>, llegaste hasta la adivinanza <span class="riddle-reached">numero</span> y lograste un puntaje de <span class="score-achieved">numero</span>.
+          </h2> 
+        </div>
+        <div class="modal-footer">
+          <h2>¡Prueba otra vez!</h2>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <audio controls class="wrong-sfx">
+    <source src="audio/135232__thebrightside__sy-31.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="right-sfx">
+    <source src="audio/528957__beetlemuse__correct-answer-that-s-right.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="winner-sfx">
+    <source src="audio/434612_jens-enk_completed (online-audio-converter.com).mp3" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="loser-sfx">
+    <source src="audio/8-bit-game-over-sound-tune.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="berserk-op">
+    <source src="audio/penpals-tell-me-why-sub-espanol-lyrics-berserk-op-full.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="vinland-saga-op">
+    <source src="audio/vinland-saga-opening-fullmukanjyoby-survive-said-the-prophet.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <audio controls class="evangelion-op">
+    <source src="audio/evangelion-na-tenshi-no-te-zethe-cruel-angels-thesis.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  </section>
+  <script src="js/app.js">
+    // const testColor = () =>{
+    //   chances_left.style.color = "red";
+    // }
+    const testFunction = () =>{
+      console.log("asdasdasdadasdasdasd");
+      alert("asdasd");
+    }
+
+  </script>
+</body>
+</html>

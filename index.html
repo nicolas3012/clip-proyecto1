@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario Fácil</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="icon" type="image/jpg" sizes="192x192" href="img/logo-white-blue.jpg">
+  <style>
+    ul li{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <picture>
+        <img src="img/q1.png" alt="">
+      </picture>
+      <h2>Horario Fácil</h2>
+    </div>
+    <nav class="main-nav">
+      <ul class="menu">
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#how-it-works">Cómo funciona</a>
+        </li>
+        <li>
+          <a href="#features-section">Características</a>
+        </li>
+        <li>
+          <a href="contact.html">Contacto</a>
+        </li>
+        <li>
+          <a href="guess.html">Juego</a>
+        </li>
+      </ul>
+      <ul class="cta-menu">
+        <li>
+          <a href="#">Iniciar sesión</a>
+        </li>
+        <li>
+          <a href="#">Prueba grátis</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-light bg-light mobile-nav">
+      <a class="navbar-brand" href="#">
+        <div class="logo">
+          <picture>
+            <img src="img/q1.png" alt="">
+          </picture>
+          <h2>Horario Fácil</h2>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#how-it-works">Cómo funciona<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#features-section">Características<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contacto<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+      
+      
+  <section id="hero-section">
+    <!-- <picture class="bg-img">
+      <img src="img/pexels-gustavo-fring-3873872.jpg" alt="">
+    </picture> -->
+    <div class="bg-img"></div>
+    <h1>Programación de citas hechas simples.</h1>
+    <h2>Di adiós a calendarios vacíos con reservas online gratuitas y recordatorios.</h2>
+    <div class="cta-button">
+      <button type="button" class="btn btn-success">Pruebalo Grátis</button>
+    </div>
+    <h6>No se requiere tarjeta de crédito</h6>
+    <!-- <a href="guess.html" style="position: relative; z-index: 3; color: white; font-size: 2rem;">Juega a las adivinanzas!</a> -->
+  </section>
+  <section id="how-it-works">
+    <h1>Usar Horario Fácil es simple.</h1>
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-6"> -->
+          <div class="step-1-info-container col-xl-6 col-lg-6 col-md-5 col-sm-12">
+            <div class="step-1">
+              1
+            </div>
+            <div class="step-1-description">
+              <p>
+                Personalice el calendario de citas y <br> la página de reservas.
+              </p>
+            </div>
+          </div>
+        <!-- </div> -->
+        <div class="col-11 offset-sm-0 col-sm-10 offset-md-0 col-xl-5 col-lg-6 col-md-7">
+          <div class="step-1-img">
+            <table>
+              <tr>
+                <th colspan="3">Available Hours</th>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    <span class="hours">10:00 AM - 5:00 PM</span><span class="x">x</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    <span class="hours">9:00 AM - 4:00 PM</span><span class="x">x</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>wednesday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    <span class="hours">9:00 AM - 3:00 PM</span><span class="x">x</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    <span class="hours">9:00 AM - 5:00 PM</span><span class="x">x</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>
+                  <div class="cell-info cell-info-1">
+                    <span class="hours">9:00 AM - 2:00 PM</span><span class="x">x</span>
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>
+                  <div class="cell-info">
+                    
+                  </div>
+                </td>
+                <td>
+                  <div class="cell-info">
+                    <span class="plus">+</span>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- <div class="step-1-container">
+        </div> -->
+      </div>
+      <div class="row">
+        <!-- <div class="col-12"> -->
+          <div class="transition-step1-2 
+          offset-xl-3 col-xl-6
+          offset-lg-3 col-lg-6
+          offset-md-2 col-md-8
+          col-sm-0">
+            <img src="img/line-1-to-2.png" alt="">
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="step-2-container">
+        <div class="row">
+          <div class="
+          col-11 order-12
+          offset-sm-0 col-sm-10 order-sm-12
+          offset-md-0 col-md-7 order-md-1
+          col-lg-6 col-xl-5">
+            <div class="step-2-img">
+              <div class="img-filter"></div>
+              <div class="personal-schedule-link">
+                <i class="fas fa-lock"></i>https://tu-organizacion.horariofacil.com
+              </div>
+            </div>
+          </div>
+          <div class="step-2-info-container col-xl-6 col-lg-6 col-md-5 col-sm-12 order-1 order-sm-1 order-md-12">
+            <div class="step-2">
+              2
+            </div>
+            <div class="step-2-description">
+              <p>Comparta su página de reserva personal con sus clientes y prospectos. Puede integrar su página de programación en su sitio web, correos electrónicos y páginas de destino.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="transition-step2-3
+          offset-xl-3 col-xl-6
+          offset-lg-3 col-lg-6
+          offset-md-2 col-md-8
+          col-sm-0">
+            <img src="img/line-2-to-3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="step-3-container">
+        <div class="row">
+          <div class="step-3-info-container col-xl-6 col-lg-6 col-md-5 col-sm-12">
+            <div class="step-3">
+              3
+            </div>
+            <div class="step-3-description">
+              <p>Sus clientes y prospectos reservan un tiempo disponible con usted. Se agrega automáticamente a su calendario y al de ellos sin el tedioso ir y venir.</p>
+            </div>
+          </div>
+          <div class="
+          col-11
+          offset-sm-0 col-sm-10
+          offset-md-0 col-md-7
+          col-lg-6 col-xl-5">
+            <div class="step-3-img">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="features-section">
+    <div class="container">
+      <h1>Funciones de calendarización modernas para que pueda <br> trabajar menos y lograr más.</h1>
+      <div class="row f-row">
+        <div class="box1 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/seamless-calendar-sync-2.png" alt="">
+          </div>
+          <h2 class="feature-title">Sincronización perfecta del calendario</h2>
+          <p class="feature-description">Horario Fácil se integra perfectamente con su calendario de Google y Office 365. Agregamos eventos automáticamente a su calendario y nos aseguramos de que nunca tenga una reserva doble.</p>
+        </div>
+        <div class="box2 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/scheduling-workflows.png" alt="">
+          </div>
+          <h2 class="feature-title">Cree flujos de trabajo con sus otras herramientas</h2>
+          <p class="feature-description">¡Gracias a nuestra integración de Webhooks y Zapier, puede vincular Appointlet con las otras aplicaciones que usa, como Salesforce, Zoho CRM, GoToMeeting, MailChimp y más!</p>
+        </div>
+        <div class="box3 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/any-device.png" alt="">
+          </div>
+          <h2 class="feature-title">Funciona en cualquier dispositivo</h2>
+          <p class="feature-description">El diseño receptivo de Appointlet permite a sus clientes hacer negocios con usted de la manera que prefieran, para que nunca pierda prospectos que estén en movimiento.</p>
+        </div>
+        <div class="box1 box21 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/scheduling-confirmations-reminders.png" alt="">
+          </div>
+          <h2 class="feature-title">Recordatorios y confirmaciones</h2>
+          <p class="feature-description">Appointlet envía automáticamente confirmaciones y recordatorios por correo electrónico personalizables para reducir las ausencias.</p>
+        </div>
+        <div class="box2 box22 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/control-schedule.png" alt="">
+          </div>
+          <h2 class="feature-title">Toma el control de tu horario</h2>
+          <p class="feature-description">Tú decides cuándo estás disponible. Establezca descansos entre reservas, evite citas de última hora, apruebe solicitudes de reunión y más.</p>
+        </div>
+        <div class="box3 box23 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/custom-branding.png" alt="">
+          </div>
+          <h2 class="feature-title">Marca personalizable</h2>
+          <p class="feature-description">Personalice sus páginas de reserva y correos electrónicos para que se adapten a su marca.</p>
+        </div>
+      </div>
+      <!-- <div class="row s-row">
+        <div class="box1 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/scheduling-confirmations-reminders.png" alt="">
+          </div>
+          <h2 class="feature-title">Recordatorios y confirmaciones</h2>
+          <p class="feature-description">Appointlet envía automáticamente confirmaciones y recordatorios por correo electrónico personalizables para reducir las ausencias.</p>
+        </div>
+        <div class="box2 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/collect-payments.png" alt="">
+          </div>
+          <h2 class="feature-title">Cobrar pagos</h2>
+          <p class="feature-description">Acepte pagos de sus clientes mediante Stripe.</p>
+        </div>
+        <div class="box3 col-md-4 col-sm-6 col-12">
+          <div class="feature-img">
+            <img src="img/custom-branding.png" alt="">
+          </div>
+          <h2 class="feature-title">Marca personalizable</h2>
+          <p class="feature-description">Personalice sus páginas de reserva y correos electrónicos para que se adapten a su marca.</p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="Reviews">
+    <div class="container">
+      <div class="titles">
+        <h2>Testimonios, lo que dicen los clientes.</h2>
+        <h5>Únete a miles de empresas que confían en nosotros para llevar su programación al siglo XXI.</h5>
+      </div>
+      <div class="testimonials">
+        <!--<div class="col-md-4 col-lg-4">
+          <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
+              <blockquote>
+                  Assertively procrastinate distributed relationships whereas equity invested intellectual capital everything energistically underwhelm proactive.
+              </blockquote>
+              <div class="client-ratting mt-2">
+                  <ul class="list-inline">
+                      <li class="list-inline-item"><span class="ti-star ratting-color"></span></li>
+                      <li class="list-inline-item"><span class="ti-star ratting-color"></span></li>
+                      <li class="list-inline-item"><span class="ti-star ratting-color"></span></li>
+                      <li class="list-inline-item"><span class="ti-star ratting-color"></span></li>
+                      <li class="list-inline-item"><span class="ti-star ratting-color"></span></li>
+                  </ul>
+                  <h6 class="font-weight-bold">5.0 <small class="font-weight-lighter">BizBite</small></h6>
+              </div>
+          </div>
+          <div class="client-info-wrap d-flex align-items-center mt-5">
+              <div class="client-img mr-3">
+                  <img src="img/client-1.jpg" alt="client" width="60" class="img-fluid rounded-circle shadow-sm"/>
+              </div>
+              <div class="client-info">
+                  <h5 class="mb-0">Austin Cesar</h5>
+                  <p class="mb-0">ThemeTags</p>
+              </div>
+            </div>
+        </div>-->
+        <div class="testimonial-box box1">
+          <div class="testimonial-text-rate">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+            <div class="rating">
+              <ul class="stars">
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+              <span>4.6 BizBite</span>
+            </div>
+          </div>
+          <div class="user-info">
+            <div class="user-img1"></div>
+            <div class="name-company">
+              <h4>Austin Cesar</h4>
+              <h6>Banker</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-box box2">
+          <div class="testimonial-text-rate">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi.</p>
+            <div class="rating">
+              <ul class="stars">
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+              <span>4.7 BizBite</span>
+            </div>
+          </div>
+          <div class="user-info">
+            <div class="user-img2"></div>
+            <div class="name-company">
+              <h4>Rosie Adams</h4>
+              <h6>Accountant</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-box box3">
+          <div class="testimonial-text-rate">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+            <div class="rating">
+              <ul class="stars">
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+              <span>4.8 BizBite</span>
+            </div>
+          </div>
+          <div class="user-info">
+            <div class="user-img3"></div>
+            <div class="name-company">
+              <h4>Aika Lee</h4>
+              <h6>Hairdresser</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="row">
+      <div class="col-6 col-sm-4 offset-lg-1 col-lg-3">
+        <div class="general-links">
+          <ul>
+            <li>
+              <h2>General</h2>
+            </li>
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Cómo funciona</a>
+            </li>
+            <li>
+              <a href="#features-section">Características</a>
+            </li>
+            <li>
+              <a href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-2">
+        <div class="company-links">
+          <ul>
+            <li>
+              <h2>Company</h2>
+            </li>
+            <li>
+              <a href="#footer">Acerca de nosotros</a>
+            </li>
+            <li>
+              <a href="#footer">Blog</a>
+            </li>
+            <li>
+              <a href="#footer">Soporte</a>
+            </li>
+            <li>
+              <a href="#footer">Políticas de privacidad</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="offset-1 col-6 offset-sm-0 col-sm-4 offset-lg-2 col-lg-4">
+        <ul class="social-media-links">
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h2>Copyright © 2020, Horario Fácil, Inc. All rights reserved.</h2>
+  </footer>
+</body>
+</html>
+
+<!-- <div class="transition-step-line">
+  <div class="tsl-fpart">
+    
+  </div>
+  <div class="tsl-spart">
+
+  </div>
+</div> -->

@@ -1,0 +1,159 @@
+header{
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-between;*/
+  align-items: center;
+  /* background: #25333d; */
+  background: white;
+  /* height: 8vh; */
+  height: 49px;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+header .logo{
+  width: 20%;
+  display: flex;
+  /* width: 60px; */
+  /* justify-content: center; */
+  cursor: pointer;
+}
+
+header .logo h2{
+  display: flex;
+  align-items: center;
+  /* color: #a7adb1; */
+  color: #575a5d;
+}
+
+header .logo a{
+  display: flex;
+  align-items: center;
+  /* color: #a7adb1; */
+  color: #575a5d;
+  text-decoration: none;
+}
+
+header .logo picture img{
+  width: 80px;
+  margin-right: -10px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+header nav .menu{
+  display: flex;
+  /* width: 40%; */
+}
+
+header nav .cta-menu{
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+header nav ul li{
+  margin-right: 45px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul.menu li:nth-child(5){
+  margin-right: 0;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  font-size: 1rem;
+  /* font-family: 'Lato', sans-serif; */
+  cursor: pointer;
+  position: relative;
+  padding: 16px 0px 16px;
+}
+
+header nav ul li a:hover{
+  /* color: white; */
+  /* color: #8b52f3; */
+  text-decoration: none;
+}
+
+header nav ul li a:hover::after,
+header nav ul li a:focus::after{
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: #8b52f3;
+  display: block;
+  margin: -3px auto 0;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+/* nav ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+nav li a{
+  color: #575a5d;
+}
+
+nav li a:hover{
+  color: #575a5d;
+}
+
+header nav ul.cta-menu li:nth-child(2) a{
+  border: 2px solid #7daff5;
+    padding: 10px 12px;
+    /* color: blue; */
+    border-radius: 5px;
+    /* background: blue; */
+    color: #7daff5;
+}
+
+header nav ul.cta-menu li:nth-child(2) a:hover::after,
+header nav ul.cta-menu li:nth-child(2) a:focus::after{
+  display: none;
+}
+
+header nav ul.cta-menu li:nth-child(2) a:hover{
+  border-color: #3d81e0;
+  color: #3d81e0;
+}
+
+/* tablets */
+
+@media (max-width: 991px){
+  header nav ul li{
+    margin-right: 30px;
+  }
+  
+  header nav ul.cta-menu li{
+    margin-right: 20px;
+  }
+
+  /* header nav .menu{
+    display: contents;
+    width: 40%;
+  } */
+}
+
+@media (max-width: 800px){
+  header nav ul li{
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 991px){
+  header nav ul li a{
+    font-size: .9rem;
+    padding: 16px 0px 21px;
+  }
+}
