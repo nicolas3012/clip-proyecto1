@@ -25,12 +25,6 @@
           <a href="index.html">Inicio</a>
         </li>
         <li>
-          <a href="#how-it-works">Cómo funciona</a>
-        </li>
-        <li>
-          <a href="#features-section">Características</a>
-        </li>
-        <li>
           <a href="contact.html">Contacto</a>
         </li>
         <li>
@@ -64,13 +58,10 @@
             <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#how-it-works">Cómo funciona<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#features-section">Características<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
             <a class="nav-link" href="contact.html">Contacto<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="guess.html">Juego<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -94,25 +85,25 @@
       </p>
       <p class="rules">6) Puedes comprar intentos, cada uno cuesta 2 puntos.</p>
       <div class="row row1">
-        <div class="col-6 ">
+        <div class="col-12 col-md-6">
           <h2 class="guess-title">Adivinanza <span class="guess-number">1</span>:</h2>
           <p class="guess-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora aliquam neque, tempore nihil ea eum corporis magni sunt dolorem iusto quidem voluptatum voluptatem maxime illum esse laborum consectetur dignissimos culpa!</p>
 
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2 class="guess-title">Pistas:</h2>
           <p class="clue1" >Pista 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime sit esse quae dolor commodi numquam hic vero quia sunt deserunt dignissimos earum.</p>
           <p class="clue2" >Pista 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta at voluptate ipsam quibusdam vero magni maxime modi sit, qui sed.</p>
         </div>
       </div>
       <div class="row row2">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2 class="user-answer-generic">
             Tu respuesta: <span class="user-answer">_ _ _ _ _ </span>
             <!-- <span class="user-answer-result"></span> -->
           </h2>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h3 class="chances">Intentos restantes: <span class="chances-left"></span></h3>
         </div>
 
@@ -121,10 +112,10 @@
         <h2 style="display: none;">Respuesta correcta: <span class="right-answer">...</span></h2>
         <!-- <div class="col-3">
         </div> -->
-        <div class="offset-3 col-3">
+        <div class="col-12 offset-md-3 col-md-3">
           <input type="text" class="answer-input">
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5">
           <button type="button" class="guess-btn btn btn-primary">Adivinar</button>
           <!-- <button class="try-again">Probar de nuevo</button> -->
           <!-- <div class="try-again-btn">
@@ -133,7 +124,7 @@
         </div>
       </div>
       <div class="row row4">
-        <div class="offset-2 col-7">
+        <div class="col-12 offset-md-2 col-md-7">
           <button type="button" class="next-guess btn btn-success" onclick="change_guess();" disabled>Siguiente</button>
           <button type="button" class="buy-try btn btn-primary" onclick="buy_try_func();" disabled>Comprar intento</button>
           <button type="button" class="restart-game btn btn-danger" onClick="window.location.reload();" disabled>Reiniciar juego</button>

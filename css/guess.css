@@ -292,10 +292,10 @@
 #game-section h1.pallete6,
 #game-section h2.palette6,
 #game-section h3.palette6,
-#game-section .row1 .col-6 .guess-text.palette6,
+#game-section .row1  .guess-text.palette6,
 #game-section .score-number.palette6, .score.palette6,
-#game-section .row1 .col-6 .clue1.palette6,
-#game-section .row1 .col-6 .clue2.palette6,
+#game-section .row1  .clue1.palette6,
+#game-section .row1  .clue2.palette6,
 .guess_title.palette6, .user-answer-generic.palette6, .user-answer.palette6,
  .chances.palette6, .chances-left.palette6, #game-section div h1.main-guess-title.palette6
 {
@@ -318,10 +318,10 @@
   -webkit-backdrop-filter: blur(3px); */
 }
 #game-section .main-guess-title,#game-section h2,#game-section h3,
-#game-section .row1 .col-6 .guess-text,
+#game-section .row1  .guess-text,
 #game-section .score-number,
-#game-section .row1 .col-6 .clue1,
-#game-section .row1 .col-6 .clue2{
+#game-section .row1  .clue1,
+#game-section .row1  .clue2{
   color: #000;/*B80C09*/
 }
 
@@ -348,6 +348,20 @@
   background-repeat: no-repeat;
 }
 #game-section .container.berserk{
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: opacity(15%);  
+  -webkit-backdrop-filter: opacity(15%);
+}
+
+/* Vinland */
+
+#game-section.vinland{
+  background-image: url("https://newslagoon.com/wp-content/uploads/2020/07/Vinland-Saga-Season-2-with-Thorfinn-taking-REVENGE-for-his.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#game-section .container.vinland{
   background: rgba(255, 255, 255, 0);
   backdrop-filter: opacity(15%);  
   -webkit-backdrop-filter: opacity(15%);
@@ -414,6 +428,19 @@ header .mobile-nav{
   #form h1{
     font-size: 2rem;
     margin-bottom: 25px;
+  }
+  #game-section .container .row1{
+    margin-bottom: 100px;
+  }
+  #game-section .container .row2{
+    margin-bottom: 30px;
+  }
+  #game-section .container .row3 button{
+    margin-bottom: 10px;
+  }
+  #game-section .container .row4 button{
+    margin-bottom: 10px;
+    margin-right: 10px;
   }
 }
 /* body{
