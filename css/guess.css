@@ -336,7 +336,8 @@
 }
 #game-section .container.reloj-dali{
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: brightness(15%);  
+  backdrop-filter: brightness(15%);
+  -webkit-backdrop-filter: brightness(15%);
   /* -webkit-backdrop-filter: opacity(15%); */
 }
 
@@ -350,7 +351,8 @@
 }
 #game-section .container.sand-clock{
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: brightness(15%);  
+  backdrop-filter: brightness(15%);
+  -webkit-backdrop-filter: brightness(15%);
   /* -webkit-backdrop-filter: opacity(15%); */
 }
 
