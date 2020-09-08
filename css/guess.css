@@ -325,7 +325,36 @@
   color: #000;/*B80C09*/
 }
 
-/* Vinland */
+
+/* reloj dali */
+
+#game-section.reloj-dali{
+  background-image: url("../img/reloj-dali.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#game-section .container.reloj-dali{
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: brightness(15%);  
+  /* -webkit-backdrop-filter: opacity(15%); */
+}
+
+/* sand clock */
+
+#game-section.sand-clock{
+  background-image: url("https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#game-section .container.sand-clock{
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: brightness(15%);  
+  /* -webkit-backdrop-filter: opacity(15%); */
+}
+
+/* Vinland
 
 #game-section.vinland{
   background-image: url("https://newslagoon.com/wp-content/uploads/2020/07/Vinland-Saga-Season-2-with-Thorfinn-taking-REVENGE-for-his.jpg");
@@ -337,7 +366,7 @@
   background: rgba(255, 255, 255, 0);
   backdrop-filter: opacity(15%);  
   -webkit-backdrop-filter: opacity(15%);
-}
+} */
 
 /* Berserk */
 
@@ -349,8 +378,9 @@
 }
 #game-section .container.berserk{
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%);
+  backdrop-filter: brightness(15%);  
+  /* backdrop-filter: opacity(15%);  
+  -webkit-backdrop-filter: opacity(15%); */
 }
 
 /* Vinland */
@@ -363,8 +393,9 @@
 }
 #game-section .container.vinland{
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%);
+  backdrop-filter: brightness(15%);  
+  /* backdrop-filter: opacity(15%);  
+  -webkit-backdrop-filter: opacity(15%); */
 }
 
 
@@ -378,8 +409,10 @@
 }
 #game-section .container.evangelion{
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%);
+  backdrop-filter: brightness(15%);  
+
+  /* backdrop-filter: opacity(15%);  
+  -webkit-backdrop-filter: opacity(15%); */
 }
 
 

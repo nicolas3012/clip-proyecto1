@@ -242,8 +242,20 @@ const change_guess = () =>{
   pista_1.style.visibility = "hidden";
   pista_2.style.visibility = "hidden";
   //console.log(guess_answer);
+  if(array_of_guesses.length == 8){
+    // array_of_songs[0].pause();
+    // array_of_songs[2].play();
+    game_section.classList.add("reloj-dali");
+    game_container.classList.add("reloj-dali");
+  }
+  if(array_of_guesses.length == 5){
+    // array_of_songs[0].pause();
+    // array_of_songs[2].play();
+    game_section.classList.add("sand-clock");
+    game_container.classList.add("sand-clock");
+  }
   if(array_of_guesses.length == 1){
-    array_of_songs[0].pause();
+    //array_of_songs[0].pause();
     array_of_songs[2].play();
     game_section.classList.add("evangelion");
     game_container.classList.add("evangelion");
@@ -256,7 +268,7 @@ const change_guess = () =>{
   }
   if(array_of_guesses.length == 2){
     array_of_songs[1].pause();
-    array_of_songs[0].play();
+    //array_of_songs[0].play();
     game_section.classList.add("vinland");
     game_container.classList.add("vinland");
   }
