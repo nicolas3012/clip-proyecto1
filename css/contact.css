@@ -3,14 +3,14 @@
 @import "reset.css";
 @import "header-nav.css";
 
-body{
+/* body{
   overflow: hidden;
-}
+} */
 
 #form{
   background: #47A8BD;
   padding: 60px 0px;
-  height: 93vh;
+  /* height: 93vh; */
 }
 
 #form h1{
