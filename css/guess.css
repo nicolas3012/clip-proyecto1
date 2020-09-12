@@ -141,20 +141,20 @@
   /* height: fit-content; */
 }
 
-#game-section .row4 .col-7{
+#game-section .row4 .left-part{
   text-align-last: center;
 }
 
-#game-section .row4 .col-7 button{
+#game-section .row4 .left-part button{
   margin-right: 30px;
 }
 
-#game-section .row4 .col-7 .next-guess{
+#game-section .row4 .left-part .next-guess{
   margin-left: 71px;
 }
 
-#game-section .row4 .col-7 .finish,
-#game-section .row4 .col-7 .you-lose{
+#game-section .row4 .finish,
+#game-section .row4 .you-lose{
   visibility: hidden;
 }
 
@@ -465,7 +465,7 @@ header .mobile-nav{
     margin-bottom: 25px;
   }
   #game-section .container .row1{
-    margin-bottom: 100px;
+    margin-bottom: 125px;
   }
   #game-section .container .row2{
     margin-bottom: 30px;
@@ -476,6 +476,16 @@ header .mobile-nav{
   #game-section .container .row4 button{
     margin-bottom: 10px;
     margin-right: 10px;
+  }
+
+  #game-section .row4 .left-part .next-guess{
+    margin-left: 0px;
+  }
+  #game-section .row5 h2{
+    margin-bottom: 15px;
+  }
+  #game-section .row5 .player-name{
+    margin-bottom: 15px;
   }
 }
 /* body{
