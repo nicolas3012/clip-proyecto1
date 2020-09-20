@@ -356,67 +356,6 @@
   /* -webkit-backdrop-filter: opacity(15%); */
 }
 
-/* Vinland
-
-#game-section.vinland{
-  background-image: url("https://newslagoon.com/wp-content/uploads/2020/07/Vinland-Saga-Season-2-with-Thorfinn-taking-REVENGE-for-his.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#game-section .container.vinland{
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%);
-} */
-
-/* Berserk */
-
-#game-section.berserk{
-  background-image: url("https://i.pinimg.com/originals/ab/eb/22/abeb228248191ef7f0e5d4dd971527f4.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#game-section .container.berserk{
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: brightness(15%);  
-  /* backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%); */
-}
-
-/* Vinland */
-
-#game-section.vinland{
-  background-image: url("https://newslagoon.com/wp-content/uploads/2020/07/Vinland-Saga-Season-2-with-Thorfinn-taking-REVENGE-for-his.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#game-section .container.vinland{
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: brightness(15%);  
-  /* backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%); */
-}
-
-
-/* Evangelion */
-
-#game-section.evangelion{
-  background-image: url("../img/all-evas.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#game-section .container.evangelion{
-  background: rgba(255, 255, 255, 0);
-  backdrop-filter: brightness(15%);  
-
-  /* backdrop-filter: opacity(15%);  
-  -webkit-backdrop-filter: opacity(15%); */
-}
-
 
 /* ************************************** */
 *{

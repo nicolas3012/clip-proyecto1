@@ -372,4 +372,28 @@ const buy_try_func = () =>{
 
 //}
 
+const is_leap_year = (year) => {
+  if (year % 100 === 0 && year % 4 === 0 || year % 400 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
+// let fecha = new Date();
+// let fecha_dia_mes = fecha.getDate();
+// console.log("Este es la fecha completa" + fecha);
+// console.log("este es el dia de la semana de la fecha actual:\n" + fecha_dia_mes);
+
+const programmer_day_msg = (leap_year) => {
+  let fecha = new Date();
+  let fecha_mes = fecha.getMonth();
+  let fecha_dia_de_mes = fecha.getDate();
+  if (fecha_mes == 9) {
+    if(leap_year && fecha_dia_de_mes == 12) {
+      alert("feliz dia de programador en año bisiesto");
+    } else if(!(leap_year) && fecha_dia_de_mes == 13) {
+      alert("feliz dia del programador en año comun");
+    }
+  }
+}

@@ -105,7 +105,7 @@
         </div>
         <div class="form-group form-check">
           <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="remember" required> I agree on termns and conditions.
+            <input class="form-check-input" type="checkbox" name="remember" required> I agree on terms and conditions.
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Check this checkbox to continue.</div>
           </label>
@@ -114,6 +114,10 @@
       </form>
     </div>
   </section>
+  <aside>
+    <h1>click me!</h1>
+    <button onclick="programmer_day_msg(is_leap_year);">apretar</button>
+  </aside>
   <script>
   // Example starter JavaScript for disabling form submissions if there are invalid fields
   (function() {
@@ -133,6 +137,27 @@
       });
     }, false);
   })();
+  
+  const is_leap_year = (year) => {
+    if (year % 100 === 0 && year % 4 === 0 || year % 400 === 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  const programmer_day_msg = (leap_year) => {
+    let fecha = new Date();
+    let fecha_mes = fecha.getMonth();
+    let fecha_dia_de_mes = fecha.getDate();
+    if (fecha_mes == 8) {
+      if(leap_year && fecha_dia_de_mes == 12) {
+        alert("¡Felíz dia del programador!");
+      } else if(!(leap_year) && fecha_dia_de_mes == 13) {
+        alert("¡Felíz dia del programador!");
+      }
+    }
+  }
   </script>
 </body>
 </html>
